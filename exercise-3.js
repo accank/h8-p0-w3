@@ -2,12 +2,12 @@
 function dataHandling(input){
 
   // loop untuk array
-  for (var i=0, len=input.length; i<len; i++) {
+  for (var i = 0; i < input.length; i++) {
       
       // loop untuk sub array
-      for (var j=0, len2=input[i].length; j<len2; j++) {
+      // for (var j=0, len2=input[i].length; j<len2; j++) {
           
-      }
+      // }
       console.log('id: ' + input[i][0] );
           console.log('nama: ' + input[i][1] );
           console.log('TTL: ' + input[i][2]+ ' '+ input[i][3] );
