@@ -26,8 +26,8 @@ function dataHandling2(input){
     case 12: {console.log('Desember'); break;}
   }
 
-  //sorting tanggal/bulan/tahun secara desceding
-  console.log(arr.sort(function(value1, value2) { return value1 < value2 }));
+  //sorting tanggal/bulan/tahun secara desceding  
+  console.log(arr.sort(function(value1, value2){return value2 - value1}));
 
   //menggabungkan elemen tanggal/bulan/tahun dengan pemisah strip (-)
   var data = tanggalString.split('/')  
